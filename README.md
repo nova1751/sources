@@ -2,8 +2,8 @@
 
 **使用格式**
 - 博客图片：https://cdn.jsdelivr.net/gh/nova1751/sources/blogImg/图片名称
-
 - 博文图片：https://cdn.jsdelivr.net/gh/nova1751/sources/postImg/图片名称
+- 其他图片: https://cdn.jsdelivr.net/gh/nova1751/sources/otherImg/图片名称
 
 **示例**
 - https://cdn.jsdelivr.net/gh/nova1751/sources/blogImg/yuki.png
