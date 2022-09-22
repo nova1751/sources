@@ -1,5 +1,5 @@
 ## CDN静态资源托管
 
-**仓库目录**
--- 博客文章图片
--- 博客站图床
+**使用格式**
+- 博客图片： https://cdn.jsdelivr.net/gh/nova1751/sources/blogImg/图片名称
+- 博文图片： https://cdn.jsdelivr.net/gh/nova1751/sources/postImg/图片名称 
