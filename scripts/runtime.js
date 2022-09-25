@@ -26,5 +26,11 @@ setInterval(() => {
     if (second > 0) {
       time[4] = nol(second);
     }
+    if ((Number(time[2])<22) && (Number(time[2])>7)){
+        currentTimeHtml ="<img class='boardsign' " + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      }
+      else{
+        currentTimeHtml ="<img class='boardsign' " + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+      }
     document.getElementById("workboard").innerHTML = currentTimeHtml;
   }, 1000);
