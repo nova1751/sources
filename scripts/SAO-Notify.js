@@ -19,20 +19,7 @@ function SAONotify(title,message,action){
   }
   
   
-  //无子菜单时，点击音效
-  function clickAudio() {
-    var clickAudio = document.getElementById("SAO-Notify-Click");
-    if (clickAudio) {
-      clickAudio.play();//有音频时播放
-    }
-  }
-  //有子菜单时，展开音效
-  function panelAudio() {
-    var panelAudio = document.getElementById("SAO-Notify-Panel");
-    if (panelAudio) {
-      panelAudio.play();//有音频时播放
-    }
-  }
+
   // 关闭通知栏
   function cancelNotify(){
     var notifyWindow = document.getElementById('SAO-Notify');
