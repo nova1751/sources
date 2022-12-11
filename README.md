@@ -26,12 +26,12 @@
 **反代：**
 - https://cdn.refrain.ga/gh/nova1751/sources/blogImg/bg.png
 
-![](https://cdn.refrain.ga/gh/nova1751/sources/blogImg/bgdark.jpg)
+![](https://cdn.refrain.ga/gh/nova1751/sources/blogImg/refrain.png)
 
 **NPM：**
 - https://npm.elemecdn.com/nova1751-sources/blogImg/bg.png
 
-![](https://npm.elemecdn.com/nova1751-sources/blogImg/bgdark.jpg)
+![](https://npm.elemecdn.com/nova1751-sources/blogImg/refrain.png)
 
 
 
