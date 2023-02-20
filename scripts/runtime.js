@@ -1,12 +1,12 @@
 setInterval(() => {
-  let create_time = Math.round(new Date('2022/5/1 00:00:00').getTime() / 1000); //在此行修改建站时间
-  let timestamp = Math.round((new Date().getTime()) / 1000);
+  let create_time = Math.round(new Date("2022/5/1 00:00:00").getTime() / 1000); //在此行修改建站时间
+  let timestamp = Math.round(new Date().getTime() / 1000);
   let second = timestamp - create_time;
   let time = new Array(0, 0, 0, 0, 0);
 
   var nol = function (h) {
-    return h > 9 ? h : '0' + h;
-  }
+    return h > 9 ? h : "0" + h;
+  };
   if (second >= 365 * 24 * 3600) {
     time[0] = parseInt(second / (365 * 24 * 3600));
     second %= 365 * 24 * 3600;
@@ -26,11 +26,32 @@ setInterval(() => {
   if (second > 0) {
     time[4] = nol(second);
   }
-  if ((Number(time[2]) < 22) && (Number(time[2]) > 7)) {
-    currentTimeHtml = "<div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
-  }
-  else {
-    currentTimeHtml = "<div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+  if (Number(time[2]) < 22 && Number(time[2]) > 7) {
+    currentTimeHtml =
+      "<img class='boardsign' src='https://img.shields.io/badge/小站-已运行-blue?style=social&logo=iCloud' title='依旧在正常运行中哟~'><div id='runtime'>" +
+      time[0] +
+      " YEAR " +
+      time[1] +
+      " DAYS " +
+      time[2] +
+      " : " +
+      time[3] +
+      " : " +
+      time[4] +
+      "</div>";
+  } else {
+    currentTimeHtml =
+      "<img class='boardsign' src='https://img.shields.io/badge/小站-已存活-blue?style=social&logo=iCloud&logoColor=lightgrey' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>" +
+      time[0] +
+      " YEAR " +
+      time[1] +
+      " DAYS " +
+      time[2] +
+      " : " +
+      time[3] +
+      " : " +
+      time[4] +
+      "</div>";
   }
   document.getElementById("workboard").innerHTML = currentTimeHtml;
 }, 1000);
