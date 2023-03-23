@@ -1,7 +1,0 @@
-<p style="text-align:center;font-size:16px">© 2022-2023 希亚的西红柿<p>
-<p style="text-align:center"><a target="_blank" style="display:inline-block;margin-inline:5px" href="https://github.com/" title="本项目由GitHub托管"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub"></a><a target="_blank" style="display:inline-block;margin-inline:5px" href="https://vercel.com/" title="本项目部署至Vercel"><img src="https://img.shields.io/badge/Vercel-Hosted-blue?style=social&logo=Vercel"></a><a target="_blank" style="display:inline-block;margin-inline:5px" href="https://www.cloudflare.com/" title="本项目由Cloudflare代理"><img src="https://img.shields.io/badge/Proxy-Cloudflare-orange?style=flat&logo=cloudflare"></a></p><span id="runtime_span" style="text-align: center;display:block;font-size:16px"></span>
-<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
-Date("5/1/2022 00:00:00");
-Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
-a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
-runtime_span.innerHTML="⏰本站已存活: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
