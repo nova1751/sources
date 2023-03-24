@@ -16,7 +16,7 @@ Hello,欢迎来到希亚的西红柿的资源小站！
 
 > **PS：NS 月姬和十三机兵文件的解压密码为：`nova`**
 
-![](https://noa.nova1751.tk/api/raw/?path=/%E5%9B%BE%E5%BA%8A/%E9%9B%AA%E9%9B%AA%E9%9B%AAcg%E5%8C%85/sdcg/ep3/sd_h04/sd_h04a.png)
+![](https://npm.elemecdn.com/nova1751-sources/postImg/sd_h04a%20(1).png)
 
 
 

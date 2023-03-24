@@ -7,11 +7,9 @@
 .card-clock-windDir,
 span.card-clock-weather {
   font-family: ZhuZiAWan;
-  font-size: 14px;
 }
 span.temp {
   font-family: UnidreamLED;
-  font-size: 14px;
 }
 #hexo_electric_clock {
   padding: 20px;
