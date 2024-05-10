@@ -2,7 +2,7 @@
 
 Hello,欢迎来到希亚的西红柿的资源小站！
 
-反馈或需要资源请发邮件至[我的Outlook邮箱](mailto:nova2319427728@outlook.com),或者前往[博客留言板](https://refrain.cf/comments/)留言。
+反馈或需要资源请发邮件至[我的 Outlook 邮箱](mailto:nova1751@outlook.com),或者前往[博客留言板](https://blog.refrain.site/comments/)留言。
 
 ## 须知
 
@@ -10,14 +10,10 @@ Hello,欢迎来到希亚的西红柿的资源小站！
 
 通用解压码：**希亚的西红柿**
 
-统一添加3%或5%的恢复记录，损坏自行修复
+统一添加 3%或 5%的恢复记录，损坏自行修复
 
-若转载请保留read注明
+若转载请保留 read 注明
 
 > **PS：NS 月姬和十三机兵文件的解压密码为：`nova`**
 
-![](https://npm.elemecdn.com/nova1751-sources/postImg/sd_h04a%20(1).png)
-
-
-
-
+![](<https://npm.elemecdn.com/nova1751-sources/postImg/sd_h04a%20(1).png>)
